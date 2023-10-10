@@ -25,8 +25,8 @@ function validate_password() {
 function wrong_pass_alert() {
     if (document.getElementById('pass').value != "" &&
         document.getElementById('confirm_pass').value != "") {
-        alert("Your response is submitted");
+        alert("Votre mot de passe à été envoyer");
     } else {
-        alert("Please fill all the fields");
+        alert("Veuillez à remplir ce qu'il manque");
     }
 }
